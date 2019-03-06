@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/offerText"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="15dp"
+        android:text="unseen offers are available here"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/offerone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="New offers arrived"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:background="@color/colorYellow"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/offertwo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorYellow"
+        android:text="New offers arrived"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstGuardian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/cc"></LinearLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="356dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:onClick="startBackendService"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="33sp" />
+
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:text="Sylhet"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/searchTxt"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:hint="Search Tutor"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/searchlist"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:fitsSystemWindows="true" />
+
+
+</RelativeLayout>
